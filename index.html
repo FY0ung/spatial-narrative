@@ -665,7 +665,7 @@ footer{padding-block:48px 64px;border-top:1px solid var(--line);margin-top:clamp
       </dl></div>
     </div>
     <div class="col-media">
-      <a class="preview" data-demo="p1" target="_blank" rel="noopener" aria-label="Open the Automated Insight demo">
+      <a class="preview" data-demo="p1" aria-label="Open the Automated Insight demo">
         <span class="frame"><span class="fallback">Loading demo</span>
           <iframe loading="lazy" tabindex="-1" title="Automated Insight demo preview"></iframe></span>
         <span class="open-row">
@@ -681,7 +681,7 @@ footer{padding-block:48px 64px;border-top:1px solid var(--line);margin-top:clamp
 <section class="pattern" id="p2">
   <div class="shell"><div class="split flip">
     <div class="col-media">
-      <a class="preview" data-demo="p2" target="_blank" rel="noopener" aria-label="Open the Guided Narrative demo">
+      <a class="preview" data-demo="p2" aria-label="Open the Guided Narrative demo">
         <span class="frame"><span class="fallback">Loading demo</span>
           <iframe loading="lazy" tabindex="-1" title="Guided Narrative demo preview"></iframe></span>
         <span class="open-row">
@@ -721,7 +721,7 @@ footer{padding-block:48px 64px;border-top:1px solid var(--line);margin-top:clamp
       </dl></div>
     </div>
     <div class="col-media">
-      <a class="preview" data-demo="p3" target="_blank" rel="noopener" aria-label="Open the Spatial Indicator Dashboard demo">
+      <a class="preview" data-demo="p3" aria-label="Open the Spatial Indicator Dashboard demo">
         <span class="frame"><span class="fallback">Loading demo</span>
           <iframe loading="lazy" tabindex="-1" title="Spatial Indicator Dashboard demo preview"></iframe></span>
         <span class="open-row">
@@ -737,7 +737,7 @@ footer{padding-block:48px 64px;border-top:1px solid var(--line);margin-top:clamp
 <section class="pattern" id="p4">
   <div class="shell"><div class="split flip">
     <div class="col-media">
-      <a class="preview" data-demo="p4" target="_blank" rel="noopener" aria-label="Open the Conversational Interface demo">
+      <a class="preview" data-demo="p4" aria-label="Open the Conversational Interface demo">
         <span class="frame"><span class="fallback">Loading demo</span>
           <iframe loading="lazy" tabindex="-1" title="Conversational Interface demo preview"></iframe></span>
         <span class="open-row">
@@ -883,9 +883,10 @@ footer{padding-block:48px 64px;border-top:1px solid var(--line);margin-top:clamp
 <script>
 /* ───────────────────────────────────────────────────────────────
    Wire every preview + "open live demo" link. window.DEMOS maps
-   p1–p4 to the files in demos/; the anchors already carry
-   target="_blank" rel="noopener", so a real href is all it takes —
-   modifier-click, middle-click and "open in new tab" behave natively.
+   p1–p4 to the files in demos/. Setting a real href is all it takes:
+   the demo replaces this page and Back returns to it, while
+   cmd/ctrl-click and middle-click still open a new tab if the
+   visitor wants one.
    ─────────────────────────────────────────────────────────────── */
 (function () {
   var DEMOS = window.DEMOS || {};
