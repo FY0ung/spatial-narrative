@@ -1,0 +1,7 @@
+.DS_Store
+Thumbs.db
+node_modules/
+*.log
+
+# single-file build this repo was split out of — kept locally, not published
+_backup/

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found — Spatial Narrative Interface</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#1E1E1E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; min-height:100vh; min-height:100dvh;
+    display:flex; align-items:center; justify-content:center;
+    padding:clamp(20px,5vw,40px);
+    background:#1E1E1E; color:#fff;
+    font-family:Poppins,system-ui,-apple-system,"Segoe UI",sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  main{max-width:520px; text-align:center}
+  .code{
+    font-size:clamp(56px,12vw,88px); font-weight:200; line-height:1; letter-spacing:-.03em;
+    background:linear-gradient(135deg,#9BB0DE 0%,#CBA5D1 52%,#EB92B3 100%);
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+  }
+  h1{font-size:clamp(19px,3vw,23px); font-weight:400; margin:18px 0 10px; letter-spacing:-.01em}
+  p{margin:0 0 30px; color:#B3B3B3; font-size:15px; font-weight:300; line-height:1.65}
+  a.home{
+    display:inline-block; padding:13px 26px; border-radius:999px;
+    border:1px solid rgba(255,255,255,.22); color:#fff; text-decoration:none;
+    font-size:14px; font-weight:400;
+    transition:border-color .25s cubic-bezier(.22,1,.36,1), background .25s cubic-bezier(.22,1,.36,1);
+  }
+  a.home:hover{border-color:rgba(255,255,255,.5); background:rgba(255,255,255,.06)}
+  a.home:focus-visible{outline:2px solid #9BB0DE; outline-offset:3px}
+  @media(prefers-reduced-motion:reduce){a.home{transition:none}}
+</style>
+</head>
+<body>
+  <main>
+    <div class="code">404</div>
+    <h1>This page doesn't exist</h1>
+    <p>The link may be out of date, or the page moved. Everything lives on the one-pager.</p>
+    <a class="home" href="/">Back to the overview</a>
+  </main>
+</body>
+</html>

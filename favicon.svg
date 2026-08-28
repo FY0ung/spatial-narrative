@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Spatial Narrative Interface">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9BB0DE"/>
+      <stop offset="0.52" stop-color="#CBA5D1"/>
+      <stop offset="1" stop-color="#EB92B3"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#1E1E1E"/>
+  <!-- three stacked planes: the layer metaphor the hero illustration uses -->
+  <g fill="none" stroke="url(#g)" stroke-width="3" stroke-linejoin="round">
+    <path d="M32 12 48 20 32 28 16 20Z"/>
+    <path d="M16 30 32 38 48 30"/>
+    <path d="M16 40 32 48 48 40"/>
+  </g>
+</svg>
